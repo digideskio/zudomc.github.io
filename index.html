@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Zudo</title>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+        
+        <style>
+            body {
+                font-family: "Open Sans", sans-serif;
+                -moz-user-select: -moz-none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            
+            #overlay {
+                position: fixed;
+                z-index: 500;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #333;
+                color: #fff;
+            }
+            
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateY(-50%) translateX(-50%);
+                text-align: center;
+            }
+            
+            main {
+                color: #fff;
+            }
+            
+            main h1 {
+                font-weight: 600;
+                font-size: 60px;
+                text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+                margin: 0;
+            }
+            
+            footer {
+                text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+                color: #fff;
+            }
+            
+            footer a {
+                font-weight: 600;
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .modal {
+                display: none;
+                text-align: left;
+                width: 30%;
+                box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+                background-color: #fff;
+                z-index: 501;
+            }
+            
+            .modal-content, .modal-status {
+                padding: 15px;
+            }
+            
+            .modal-status.neutral {
+                background-color: #fcf8e3;
+                color: #8a6d3b;
+            }
+            
+            .modal-status.positive {
+                background-color: #dff0d8;
+                color: #3c763d;
+            }
+            
+            .modal-status.negative {
+                background-color: #f2dede;
+                color: #a94442;
+            }
+            
+            .modal h2 {
+                margin: 0;
+            }
+            
+            .modal a {
+                color: #337ab7;
+                text-decoration: none;
+            }
+            
+            #modal-background {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0,0,0,0.5);
+                z-index: 500;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main class="center">
+            <h1>Zudo</h1>
+        </main>
+        
+        <footer>
+            <a href="https://twitter.com/intent/follow?user_id=562176049" target="_blank" title="Twitter Profile">tw</a> &bull;
+            <a href="https://namemc.com/s?6f37402d-4f88-4c14-bf61-79873562b1d6" target="_blank" title="Minecraft Profile">mc</a> &bull;
+            <a href="https://youtube.com/ZudoMC" target="_blank" title="YouTube Channel">yt</a> &bull;
+            <a href="https://github.com/zudoo" target="_blank" title="Github Profile">gh</a> &bull;
+            <a href="javascript:;" id="pk-link" title="Public Key">pk</a>
+        </footer>
+        
+        <div id="overlay">
+            <div class="center">
+                <i class="fa fa-cog fa-spin fa-5x"></i>
+            </div>
+        </div>
+        
+        <div id="modal-background">
+            &nbsp;
+        </div>
+        
+        <div class="center modal" id="public-key">
+            <div class="modal-content">
+                <h2>Public Key</h2>
+            
+                <p>I use <a href="https://keybase.io/zudomc" target="_blank">Keybase</a> to host my keys.</p>
+            
+                <ul>
+                    <li><a href="https://keybase.io/encrypt#zudomc" target="_blank">Encrypt a message with Keybase</a></li>
+                    <li><a href="publickey.txt" target="_blank">This site's copy of my public key</a></li>
+                    <li><a href="https://keybase.io/zudomc/key.asc" target="_blank">Keybase's copy of my public key</a></li>
+                </ul>
+            </div>
+            
+            <div id="pk-match" class="modal-status neutral">
+                Checking keys match...
+            </div>
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+        <script src="site.js"></script>
+        
+    </body>
+</html>
