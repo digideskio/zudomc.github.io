@@ -80,8 +80,6 @@ $.ajax("publickey.txt", {success:function(d1) {
     $.ajax("https://keybase.io/zudomc/key.asc", {success:function(d2) {
         key1 = btoa(d1);
         key2 = btoa(d2);
-        console.log(key1);
-        console.log(key2);
         if (key1 == key2) {
             $("#pk-match").removeClass("neutral").addClass("positive").text("Keys appear to be OK!");
         } else {
@@ -93,3 +91,11 @@ $.ajax("publickey.txt", {success:function(d1) {
 },error:function(){
     $("#pk-match").removeClass("neutral").addClass("negative").text("There was an error loading the local key.");
 }});
+
+$(window).konami({
+    cheat:function() {
+        $("h1, h2, h3, a, p, title").text("nyan nyan nyan");
+        $.backstretch("nyan.jpg");
+        document.getElementById("nyan").play();
+    }
+});
