@@ -1,7 +1,3 @@
-if (window.location.protocol != "https:") {
-    window.location.protocol = "https:";
-}
-
 $(window).on("load", function() {
     $.backstretch("https://placekitten.com/g/1920/1080");
 
