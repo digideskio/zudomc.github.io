@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/zudomc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zudomc.me
+  * I am zudomc (https://keybase.io/zudomc) on keybase.
+  * I have a public key with fingerprint DD8B B9DB C323 45BC 37FC  D8B2 7609 9F34 6D5F C0FF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101317c2246e03b4193ed63a58180ca74672c4438e3159fabbaa3bb6bf603753d090a",
+            "fingerprint": "dd8bb9dbc32345bc37fcd8b276099f346d5fc0ff",
+            "host": "keybase.io",
+            "key_id": "76099f346d5fc0ff",
+            "kid": "0101317c2246e03b4193ed63a58180ca74672c4438e3159fabbaa3bb6bf603753d090a",
+            "uid": "aabd13e465bc77dc0412408656b0cb00",
+            "username": "zudomc"
+        },
+        "service": {
+            "hostname": "zudomc.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1452780663,
+    "expire_in": 157680000,
+    "prev": "e4bbfa7a78e7ebdd8e3777e236dd8e28e49754193a3139829d5bb126e4334ab9",
+    "seqno": 30,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMIiAnicrVJdSBVBFL6aaRlCEVH035QlcbPZnd2Z3StqPZQl9gslVHSZ2Z31Ltbu
+9d69mpVQUkT2IBVRWgT90EPeEOtBLTTLKEL6eSgqpPKhLBEqgsgyo1mph6DH5uXM
+fPN935xz5tzJGhPITDnWPA5UjpybndJz63gisPlksmoPYK5ZDUJ7QDkfDXyHyeNe
+uNw2QQhACUpIIoYsK5hDxBRJR9zEiKqapEGDEgUT2VAUpHEkqbpFGaMUMYaZhSEi
+KjKhDikIAst2yngsGrMdT9iapsaYbjIDyUhRRSCWISCZYKjrFlKwqVoGtCwhjLhx
+XyGSYzTOc21XYOIQHk3vH/z/nHdi1I5SZkqIK1jkSohpQEWSFahhFTNoMAh9YpzH
+HLqTC/buhOnuNEBNEAis0ja431a/jr/uc8U+CKIx13MNd4eAI54XjYd8mVcd9XlV
+nIV/O4SZ7ZiihUJRyWNx23VASBJMw7N9S0lRZaJBjFEQ8F1RO8bDts9QCdagWP47
+vFJYcoUxixJKNE44E9/AESGEywj7e1njik5Uv1kUSUjXZN1UGZNkzBWEFMp04NdU
+4bgghISpR8uEZ9wuc6iXiHFQc7trW1ogJTOQPjbVn61A5viJfyaurjZjZFJ/2be8
+FYfatw8eAHOOkp6ckkVTvzT1F+rJx/vqO/CqoadZjwbP3u/PwVZv37VPVsWzZcXn
+O/cOLj+VPaOo4l79mNTmr+XzhgqfVS+Lt39cE+k6/KPwfun5nAdtU8CZ5JFhOiwt
+zJ/78cVQx/SrK5d2J5Pp7vS81oNp04IN5UUtk3Eysv7hldK04jbv8xtwadMXaenq
+D+3zN1246P0cvlx3/XJva8vimzUMFnz/Npy97nRi3KsZGwpKiuq3Hszo2j5r2pO7
++Zfe3xis7d61+QSPbGmsHT8he8GatdGWmbY5krrkw9t3eYV1rWkDDU37Z3Uqjv0Z
+pKT3NW582az1/XAGel8//wWK/UFm
+=Bsdx
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zudomc
+
+==================================================================
